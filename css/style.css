@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-image: url("../img/img.jpg");
+    font-size: 15px;
+  }
+
+  #contenitore{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* impostazione intestazione pagina */
+  header{
+    color: white;
+    border-bottom: solid 3px black;
+    font-size: 2em;
+    padding: 10px;
+  }
+
+ 
+
+  #logo{
+    width: 80px;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  #cerchio{
+    background-color: orange;
+    border: 5px orange solid;
+    border-radius: 50%;
+    }
+  
+  
+  #ricerca{
+    padding: 15px 0px;
+  }
+  
+  #barraricerca{
+      width: 500px;
+  }
+
+  /* impostazione sezione mail */
+
+main{
+    border-bottom: solid 3px black;
+    padding: 10px 0px;
+  }
+  
+  .mail{
+    border: solid 1px black;
+    padding: 2px;
+  }
+  
+  .unread{
+    background-color: darkgrey;
+  }
+  
+  .read{
+    background-color: white;
+  }
+  
+  .testo-email{
+    color: grey;
+    font-size: 13px;
+  }
+
+  /* impostazione piè di pagina */
+footer{
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+    font-size: 2em;
+  }
+  
+  #mionome{
+    font-family: cursive;
+  }
+  
